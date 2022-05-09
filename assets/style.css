@@ -1,0 +1,333 @@
+* {
+    margin: 0px auto;
+}
+body {
+    font-family: Poppins;
+}
+
+.button1 {
+    border: 1px solid #EDE6DB;
+    border-radius: 25px;
+    padding: 4px 10px;
+    background-color: none;
+    font-size: 12px;
+    color: #EDE6DB;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: #EDE6DB;
+    color: #1A3C40;
+}
+.button2 {
+    border: 1px solid #1A3C40;
+    border-radius: 25px;
+    padding: 4px 10px;
+    background-color: none;
+    font-size: 12px;
+    color: #1A3C40;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: #1A3C40;
+    color: #EDE6DB;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    float: left;
+    text-decoration: none;
+    color: white;
+}
+.button-icon {
+    height: 24px;
+}
+
+
+
+
+
+
+
+
+
+/* Header */
+
+nav {
+    height: 85px;
+    background-color: #1D5C63;
+    color: #EDE6DB;
+    width: 100%;
+    position: fixed;
+}
+.nav-bar {
+    padding: 20px 45px;
+    display: inline block;
+}
+.headerLogo img {
+    height: 45px;
+}
+.headerLeft {
+    float: left;
+}
+.headerRight {
+    float: right;
+    display: inline;
+}
+.list-menu {
+    padding-top: 10px;
+}
+
+
+
+
+/* Hero */
+.hero {
+    background-image: url("image/mockup-gee4eccd22_1920.jpg");
+    background-size: cover;
+    height: 720px;
+}
+
+.hero h1 {
+    text-align: center;
+    padding-top: 300px;
+    color: #EDE6DB;
+}
+
+.list-menu li a {
+    color: #EDE6DB;
+    padding: 0px 10px;
+}
+.header-right {
+    float: right;
+}
+
+
+
+
+
+
+/* Product */
+.product {
+    background-color: #EDE6DB;
+}
+.product h1 {
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+}
+.list-product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 10px 50px 10px;
+}
+
+.productCard {
+    width: 200px;
+    border: solid 1px #1D5C63;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f5f5f5;
+    cursor: pointer;
+} 
+.productCard:hover {
+    box-shadow: 0 0 5px #1D5C63;
+}
+.productCard h3 {
+    padding-top: 9px;
+    padding-bottom: 11px;
+}
+
+
+
+
+
+/* Promo */
+
+.promo {
+    background-image: url("image/macarons-bgr.png");
+    height: 524px;
+}
+.promo-text h1{
+    font-size: 40px;
+}
+
+.promo-text {
+    text-align: center;
+    color: #EDE6DB;
+    padding-top: 170px;
+    padding-right: 150px;
+    float: right;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+/* Blog */
+
+.blog {
+    background-color: #417D7A;
+}
+.blog h1 {
+    padding: 50px 0px 25px 0px;
+    text-align: center;
+    color: #EDE6DB;
+}
+.list-article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.card-article {
+    width: 300px;
+    border: 1px solid #EDE6DB;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.card-article:hover{
+    box-shadow: 0px 0px 5px #EDE6DB;
+}
+.article-desc {
+    padding: 25px;
+}
+.postDate {
+    padding: 10px 0px 10px 0px;
+    font-size: 14px;
+}
+
+
+
+/* Event */
+.event {
+    background-image: url("image/bakery-chef.png");
+    height: 574px;
+}
+.event-text {
+    float: right;
+    color: #1A3C40;
+    padding-top: 175px;
+    padding-right: 65px;
+    text-align: center;
+}
+.event-text h1 {
+    padding-bottom: 30px;
+}
+
+
+
+
+/* Our Baker */
+.ourBakers {
+    background-color: #EDE6DB;
+}
+.ourBakers h1 {
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+.card-baker {
+    width: 300px;
+    border: 1px solid #1D5C63;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.baker-name {
+    padding: 25px 0px;
+}
+.baker-title {
+    padding: 5px 0px 5px 0px;
+    background-color: #1D5C63;
+    color: #EDE6DB;
+}
+.list-bakers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 100px 30px 100px;
+}
+    
+
+
+
+
+
+
+
+/* Footer */
+.footer-background {
+    background-color: #1D5C63;
+    height: 151px;
+    padding: 25px 45px;
+}
+
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;    
+    color: #EDE6DB;
+    text-align: right;
+}
+
+.footer-menu li a {
+    color: #EDE6DB;
+    padding: 0px 10px;
+}
+
+
+
+
+
+@media (max-width: 400px){
+    .productCard {
+        margin-bottom: 20px;
+    }
+    .card-baker {
+        margin-bottom: 20px;
+    }
+    .event-text {
+        padding-top: none;
+        padding-right: none;
+    }
+    .promo-text {
+        padding-right: none;
+    }
+    .footer-right {
+        text-align: center;
+        padding-top: 50px;
+    }
+    .footer-background {
+        height: 300px;
+    }
+}
+@media (max-width: 800px){
+    .productCard {
+        margin-bottom: 20px;
+    }
+    .card-baker {
+        margin-bottom: 20px;
+    }
+    .event-text {
+        padding-top: none;
+        padding-right: none;
+    }
+    .promo-text {
+        padding-right: none;
+    }
+}
+    
